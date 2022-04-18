@@ -20,4 +20,4 @@ jobs:
        uses: actions/upload-artifact@v2
        with:
         name: artifact.jar
-        path: java-mavenen/target/java-maven.jar
+        path: ${{ working-directory }}/target/my-app-1.0-SNAPSHOT.jar
